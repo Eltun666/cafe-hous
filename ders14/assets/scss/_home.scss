@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+
+ background-color: #e4e4e4;
+
+header{
+    background-color: black;
+
+    .head{
+       width: 60%;
+       height: 81px;
+       margin: 0 auto;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       .headdiv1{
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 32px;
+            margin: 0 10px;
+            color: #c79c60;
+        }
+       }
+       .headdiv2{
+        nav{
+            ul{
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                .home{
+                    display: flex;
+                    align-items: center;
+                    li{
+                        a{
+                            color: #c79c60;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                li{
+                    a:hover{
+                    color: #c79c60;
+                    }
+                }
+                li{
+                    a{
+                        color: #ffffff;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+       }
+
+    }
+}
+
+main{
+    .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 855px;
+        background-color: #333333;
+        position: relative;
+        .light{
+            position: absolute;
+            top: 0;
+            left: auto;  
+        }
+        .section1text{
+            max-width: 650px;
+            margin: 0 auto;
+            position: absolute;
+            left: auto;
+            top: 145px;
+            h1{
+                color: #ffffff;
+                font-size: 60px;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            h2{
+                color: #c79c60;
+                font-size: 62px;
+                text-align: center;
+                margin: 10px 0;
+            }
+            p{
+                color: #949494;
+                margin-top: 10px;
+                .reng{
+                    color: #c79c60;
+                }
+            }
+
+   
+        }
+        .button1{
+
+                button{
+                    width: 196px;
+                    height: 46px;
+                    margin-top: 10px;
+                    border-radius: 30px;
+                    color: #c79c60;
+                    cursor: pointer;
+                    transition: 0.6s;
+                    background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/tm-brown-button.png);
+                }     
+                button:hover{
+                    color: #ffffff;
+                }
+        }
+
+        .table{
+            position: absolute;
+            left: auto;
+            bottom: -120px;
+        }
+
+    }
+
+    .section2{
+        padding-top: 170px;
+        background-color: #e4e4e4;
+        .section2box{
+            display: flex;
+            max-width: 960px;
+            margin: 0 auto;
+            gap: 30px;
+           .section2text{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h2{
+                font-size: 30px;
+                color: #c79c60;
+            }
+            .cafe{
+                font-size: 30px;
+                color: #333333;
+            }
+            .this{
+                color: #333333;
+                span{
+                    color: blue;
+                    span{
+                        color: green;
+                    }
+                }
+                
+            }
+            button{
+                width: 196px;
+                height: 46px;
+                color: #c79c60;
+                border: none;
+                border-radius: 10px;
+                background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/tm-brown-button.png);
+            }
+            button:hover{
+                color: #ffffff;
+            }
+
+           }
+           .section2img{
+
+            img{
+                width: 168px;
+            height: 168px;
+            border-radius: 50%;
+            border: 10px solid white;  
+            }
+
+            .shadov{
+                width: 100%;
+                height: 15px;
+                background-repeat: no-repeat;
+                background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/shadow.png);
+            }
+
+           }
+        }
+    }
+
+    .section3{
+        background-color: #e4e4e4;
+        padding-top: 60px;
+        .cros{
+           display: flex;
+           gap: 20px;
+           max-width: 960px;
+           margin: 0 auto;
+            .crostext{
+                width: 20%;
+                display: flex;
+                align-items: center;
+                color: #c79c60;
+            }
+        
+            .cros2{
+                width: 80%;               
+                padding: 20px;
+                hr{
+                    border-color: #c79c60;
+                }
+            }
+        }
+          
+        .boxs{
+            display: flex;
+            gap: 30px;
+            width: 60%;
+            margin: 30px auto;
+            
+           
+            .box{
+                width: 286px;
+                background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/popular-item-bg.png);
+                background-repeat: no-repeat;
+                .inbox{
+                    
+                    .img{
+                        padding-left: 3px;
+                    }
+
+                   .boxh2{
+                    h2{
+                      color: #aeaeae;
+                      text-align: center;
+                      font-size: 34px;  
+                    b{
+                      font-size: 60px; 
+                    }                  
+                    }
+                   
+                  
+                   }
+                   .boxhr{
+                    width: 90%;
+                    margin: 0 auto;
+                    border-color: #aeaeae;
+                   }
+
+                   .boxtext{
+                    max-width: 234px;
+                    height: 80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto;
+                   }
+
+                }
+                .order{
+                    position: relative;
+                    left: 80px;
+                    bottom: -25px;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    background-color: #524c4c;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .inorder{
+                        display: flex;
+                        flex-direction: column;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 90%;
+                        height: 90%;
+                        border-radius: 50%;
+                        border: 3px solid #aeaeae;
+                         p{
+                           color: #aeaeae;
+                           font-size: 24px;
+
+                         } 
+                    }
+                   }
+
+                
+            } 
+        }
+
+
+
+
+
+
+    }
+
+    .section4{
+        background-color: #e4e4e4;
+        .cros{
+            display: flex;
+            align-items: end;
+            gap: 20px;
+            max-width: 960px;
+            margin: 0 auto;
+             .crostext{
+                 width: 20%;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 color: #c79c60;
+             }
+         
+             .cros2{
+                 width: 80%;               
+                 padding: 20px;
+
+                 hr{
+                     border-color: #c79c60;
+                 }
+             }
+         }
+
+         .container{
+            max-width: 960px;
+            margin: 30px auto;
+            display: flex;
+            gap: 20px;
+            .containermini{
+                width: 536px;
+                height: 421px;
+                padding: 8px;
+                background-color: white;
+                
+                .incontainer{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: end;
+                    background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/special-1.jpg);
+                    .containerblack{
+                        width: 100%;
+                        padding: 10px;
+                        background-color: rgba(0, 0, 0, 0.4);
+                        color: white;
+                        p{
+                            font-size: 24px;
+                        }
+                        span{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        
+        .containermini2{
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+        
+            .containerwhite{
+              padding: 8px;
+              width: 376px;
+              height: 223px;
+              background-color: white;
+
+              .incontainer{
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                display: flex;
+                align-items: end;
+                background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/special-2.jpg);
+                .containerblack{
+                    width: 100%;
+                    padding: 12px;
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.6);
+                    p{
+                        font-size: 24px;
+                    }
+                    span{
+                        font-size: 16px;
+                    }
+                }
+               }
+
+
+            }
+
+            .container3{
+              display: flex;
+              justify-content: space-between;
+              .container3white{
+                padding: 8px;
+                width: 171px;
+                height: 176px;
+                background-color: white;
+                .incontainer{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: end;
+                    background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/special-3.jpg);
+                    .containerblack{
+                        width: 100%;
+                        padding: 10px;
+                        color: white;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+              }
+              
+              .container4white{
+                padding: 8px;
+                width: 171px;
+                height: 176px;
+                background-color: white;
+                .incontainer{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: end;
+                    background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/special-4.jpg);
+                    .containerblack{
+                        width: 100%;
+                        padding: 10px;
+                        color: white;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+              }
+
+            }
+
+
+
+          }
+        }
+    }
+
+    .section5{
+        width: 60%;
+        margin: 0 auto;
+        .cros{
+            display: flex;
+            gap: 20px;
+            max-width: 960px;
+            margin: 30px auto;
+             .crostext{
+                 width: 20%;
+                 display: flex;
+                 align-items: end;
+                 color: #c79c60;
+             }
+         
+             .cros2{
+                 width: 80%;               
+                 padding: 30px 20px 0 20px;
+
+                 hr{
+                     border-color: #c79c60;
+                 }
+             }
+         }
+         .section5box{
+             display: flex;
+             justify-content: space-between;
+            
+             .section5text{
+                width: 70%;
+                font-size: 14px;
+             }
+         }
+
+
+
+    }
+}
+}

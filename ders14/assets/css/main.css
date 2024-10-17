@@ -1,0 +1,414 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4e4e4;
+}
+body header {
+  background-color: black;
+}
+body header .head {
+  width: 60%;
+  height: 81px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .head .headdiv1 {
+  display: flex;
+  align-items: center;
+}
+body header .head .headdiv1 h2 {
+  font-size: 32px;
+  margin: 0 10px;
+  color: #c79c60;
+}
+body header .head .headdiv2 nav ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+body header .head .headdiv2 nav ul .home {
+  display: flex;
+  align-items: center;
+}
+body header .head .headdiv2 nav ul .home li a {
+  color: #c79c60;
+  margin-left: 10px;
+}
+body header .head .headdiv2 nav ul li a:hover {
+  color: #c79c60;
+}
+body header .head .headdiv2 nav ul li a {
+  color: #ffffff;
+  transition: 0.5s;
+}
+body main .section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 855px;
+  background-color: #333333;
+  position: relative;
+}
+body main .section1 .light {
+  position: absolute;
+  top: 0;
+  left: auto;
+}
+body main .section1 .section1text {
+  max-width: 650px;
+  margin: 0 auto;
+  position: absolute;
+  left: auto;
+  top: 145px;
+}
+body main .section1 .section1text h1 {
+  color: #ffffff;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+body main .section1 .section1text h2 {
+  color: #c79c60;
+  font-size: 62px;
+  text-align: center;
+  margin: 10px 0;
+}
+body main .section1 .section1text p {
+  color: #949494;
+  margin-top: 10px;
+}
+body main .section1 .section1text p .reng {
+  color: #c79c60;
+}
+body main .section1 .button1 button {
+  width: 196px;
+  height: 46px;
+  margin-top: 10px;
+  border-radius: 30px;
+  color: #c79c60;
+  cursor: pointer;
+  transition: 0.6s;
+  background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/tm-brown-button.png);
+}
+body main .section1 .button1 button:hover {
+  color: #ffffff;
+}
+body main .section1 .table {
+  position: absolute;
+  left: auto;
+  bottom: -120px;
+}
+body main .section2 {
+  padding-top: 170px;
+  background-color: #e4e4e4;
+}
+body main .section2 .section2box {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  gap: 30px;
+}
+body main .section2 .section2box .section2text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body main .section2 .section2box .section2text h2 {
+  font-size: 30px;
+  color: #c79c60;
+}
+body main .section2 .section2box .section2text .cafe {
+  font-size: 30px;
+  color: #333333;
+}
+body main .section2 .section2box .section2text .this {
+  color: #333333;
+}
+body main .section2 .section2box .section2text .this span {
+  color: blue;
+}
+body main .section2 .section2box .section2text .this span span {
+  color: green;
+}
+body main .section2 .section2box .section2text button {
+  width: 196px;
+  height: 46px;
+  color: #c79c60;
+  border: none;
+  border-radius: 10px;
+  background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/tm-brown-button.png);
+}
+body main .section2 .section2box .section2text button:hover {
+  color: #ffffff;
+}
+body main .section2 .section2box .section2img img {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+body main .section2 .section2box .section2img .shadov {
+  width: 100%;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/shadow.png);
+}
+body main .section3 {
+  background-color: #e4e4e4;
+  padding-top: 60px;
+}
+body main .section3 .cros {
+  display: flex;
+  gap: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+body main .section3 .cros .crostext {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  color: #c79c60;
+}
+body main .section3 .cros .cros2 {
+  width: 80%;
+  padding: 20px;
+}
+body main .section3 .cros .cros2 hr {
+  border-color: #c79c60;
+}
+body main .section3 .boxs {
+  display: flex;
+  gap: 30px;
+  width: 60%;
+  margin: 30px auto;
+}
+body main .section3 .boxs .box {
+  width: 286px;
+  background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/popular-item-bg.png);
+  background-repeat: no-repeat;
+}
+body main .section3 .boxs .box .inbox .img {
+  padding-left: 3px;
+}
+body main .section3 .boxs .box .inbox .boxh2 h2 {
+  color: #aeaeae;
+  text-align: center;
+  font-size: 34px;
+}
+body main .section3 .boxs .box .inbox .boxh2 h2 b {
+  font-size: 60px;
+}
+body main .section3 .boxs .box .inbox .boxhr {
+  width: 90%;
+  margin: 0 auto;
+  border-color: #aeaeae;
+}
+body main .section3 .boxs .box .inbox .boxtext {
+  max-width: 234px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+body main .section3 .boxs .box .order {
+  position: relative;
+  left: 80px;
+  bottom: -25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #524c4c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .section3 .boxs .box .order .inorder {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  border: 3px solid #aeaeae;
+}
+body main .section3 .boxs .box .order .inorder p {
+  color: #aeaeae;
+  font-size: 24px;
+}
+body main .section4 {
+  background-color: #e4e4e4;
+}
+body main .section4 .cros {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+body main .section4 .cros .crostext {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #c79c60;
+}
+body main .section4 .cros .cros2 {
+  width: 80%;
+  padding: 20px;
+}
+body main .section4 .cros .cros2 hr {
+  border-color: #c79c60;
+}
+body main .section4 .container {
+  max-width: 960px;
+  margin: 30px auto;
+  display: flex;
+  gap: 20px;
+}
+body main .section4 .container .containermini {
+  width: 536px;
+  height: 421px;
+  padding: 8px;
+  background-color: white;
+}
+body main .section4 .container .containermini .incontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/special-1.jpg);
+}
+body main .section4 .container .containermini .incontainer .containerblack {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+body main .section4 .container .containermini .incontainer .containerblack p {
+  font-size: 24px;
+}
+body main .section4 .container .containermini .incontainer .containerblack span {
+  font-size: 14px;
+}
+body main .section4 .container .containermini2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body main .section4 .container .containermini2 .containerwhite {
+  padding: 8px;
+  width: 376px;
+  height: 223px;
+  background-color: white;
+}
+body main .section4 .container .containermini2 .containerwhite .incontainer {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+  background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/special-2.jpg);
+}
+body main .section4 .container .containermini2 .containerwhite .incontainer .containerblack {
+  width: 100%;
+  padding: 12px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+body main .section4 .container .containermini2 .containerwhite .incontainer .containerblack p {
+  font-size: 24px;
+}
+body main .section4 .container .containermini2 .containerwhite .incontainer .containerblack span {
+  font-size: 16px;
+}
+body main .section4 .container .containermini2 .container3 {
+  display: flex;
+  justify-content: space-between;
+}
+body main .section4 .container .containermini2 .container3 .container3white {
+  padding: 8px;
+  width: 171px;
+  height: 176px;
+  background-color: white;
+}
+body main .section4 .container .containermini2 .container3 .container3white .incontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/special-3.jpg);
+}
+body main .section4 .container .containermini2 .container3 .container3white .incontainer .containerblack {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body main .section4 .container .containermini2 .container3 .container3white .incontainer .containerblack p {
+  font-size: 14px;
+}
+body main .section4 .container .containermini2 .container3 .container4white {
+  padding: 8px;
+  width: 171px;
+  height: 176px;
+  background-color: white;
+}
+body main .section4 .container .containermini2 .container3 .container4white .incontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  background-image: url(https://templatemo.com/templates/templatemo_466_cafe_house/img/special-4.jpg);
+}
+body main .section4 .container .containermini2 .container3 .container4white .incontainer .containerblack {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body main .section4 .container .containermini2 .container3 .container4white .incontainer .containerblack p {
+  font-size: 14px;
+}
+body main .section5 {
+  width: 60%;
+  margin: 0 auto;
+}
+body main .section5 .cros {
+  display: flex;
+  gap: 20px;
+  max-width: 960px;
+  margin: 30px auto;
+}
+body main .section5 .cros .crostext {
+  width: 20%;
+  display: flex;
+  align-items: end;
+  color: #c79c60;
+}
+body main .section5 .cros .cros2 {
+  width: 80%;
+  padding: 30px 20px 0 20px;
+}
+body main .section5 .cros .cros2 hr {
+  border-color: #c79c60;
+}
+body main .section5 .section5box {
+  display: flex;
+  justify-content: space-between;
+}
+body main .section5 .section5box .section5text {
+  width: 70%;
+  font-size: 14px;
+}
